@@ -1,4 +1,4 @@
-train .py from sklearn.datasets import load_iris
+notefrom sklearn.datasets import load_iris
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
@@ -28,3 +28,4 @@ print("Accuracy:", accuracy)
 # 5. Save the trained model
 joblib.dump(model, "model.joblib")
 print("Model saved successfully!")
+print("training workflow executed successfully!")
